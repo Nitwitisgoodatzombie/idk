@@ -1,0 +1,111 @@
+[[Start]]
+
+You wake up in a small room with a single door in front of you. You have no memory of how you got here. What do you do?
+
+[[Examine the door->Door]]
+
+[[Look around the room->Room]]
+
+[[Try to open the door->DoorOpen]]
+
+[[Door]]
+
+The door is made of solid wood and has a metal handle. There's no visible lock or keyhole. What do you do?
+
+[[Try to open the door->DoorOpen]]
+
+[[Examine the handle->Handle]]
+
+[[Go back->Start]]
+
+[[Handle]]
+
+The handle feels cold and heavy in your hand. You notice that it's engraved with a strange symbol that you don't recognize. What do you do?
+
+[[Try to turn the handle->DoorOpen]]
+
+[[Go back->Door]]
+
+[[DoorOpen]]
+
+You turn the handle and the door creaks open. You step into a long hallway lined with dozens of doors. Each door has a different symbol engraved on its handle. What do you do?
+
+[[Choose a door->DoorChoice]]
+
+[[Explore the hallway->Hallway]]
+
+[[Go back->Start]]
+
+[[Room]]
+
+The room is small and bare, with no windows or decorations. You notice a small key on the floor. What do you do?
+
+[[Pick up the key->Key]]
+
+[[Examine the walls->Walls]]
+
+[[Go back->Start]]
+
+[[Walls]]
+
+You examine the walls closely and notice that they're covered in strange symbols and markings. Some of them look like they might be a code or a puzzle. What do you do?
+
+[[Try to decode the symbols->Code]]
+
+[[Go back->Room]]
+
+[[Code]]
+
+You spend some time deciphering the symbols on the walls and manage to unlock a hidden compartment in the floor. Inside, you find a map of the hallway outside. What do you do?
+
+[[Use the map to navigate->Hallway]]
+
+[[Go back->Walls]]
+
+[[Key]]
+
+You pick up the key and examine it closely. It's old and rusted, but it looks like it might fit a lock somewhere in the room. What do you do?
+
+[[Look for a lock->Lock]]
+
+[[Go back->Room]]
+
+[[Lock]]
+
+You search the room and find a small chest tucked away in the corner. You try the key in the lock and it clicks open. Inside, you find a note that reads: "Choose wisely, for each door leads to a different fate." What do you do?
+
+[[Choose a door->DoorChoice]]
+
+[[Go back->Room]]
+
+[[DoorChoice]]
+
+You approach the first door and examine its handle. The symbol looks like a circle with a line through it. You remember seeing a similar symbol on the map you found earlier. What do you do?
+
+[[Choose another door->DoorChoice]]
+
+[[Use the map to choose a door->MapChoice]]
+
+[[Open the door->DoorOpen2]]
+
+[[MapChoice]]
+
+You consult the map and locate the door with the matching symbol. You approach it and try the handle. It opens easily, revealing a room with a glowing treasure chest inside. What do you do?
+
+[[Take the treasure->Treasure]]
+
+[[Go back->Hallway]]
+
+[[Treasure]]
+
+You open the chest and find it filled with gold and jewels. You feel a sense of relief and satisfaction, but also a nagging sense that you haven't fully understood the choices you've made. What do you do?
+
+[[Explore more doors->DoorChoice]]
+
+[[Try to find answers->Answers]]
+
+[[End->End]]
+
+[[Answers]]
+
+You explore more rooms and doors, trying to piece
